@@ -3,6 +3,28 @@ layout: index
 title: 'Avatar Robots'
 subtitle: 'Despite progress in telepresence assistive robotics, patients still lack the sense of realism and physical presence of their caregivers when these robots provide physical assistance, monitor them remotely, and help in improving balance and mobility. As a result, patients find them difficult to trust and therefore less likely to adopt. Realism can be realized by overlaying a human model over the robot, whose arm poses align with robot joints. While iterative Inverse Kinematics (IK) solvers can be adapted for computing such alignments, they are complex, vulnerable to singularities and non-convergence, and requires fine-tuning hyperparameters. The main contribution of our work includes a concise non-iterative alignment solver, an end-to-end system integrating the solver with a dual-arm anthropomorphic robot along with the Augmented Reality device.  We also propose an evaluation framework that quantifies the alignment quality of the solvers through multifaceted metrics. We show that our solver can consistently produce poses with similar or superior alignment as IK-based baselines without their potential drawbacks.'
 ---
+<table cellpadding="1">
+    <tr>
+        <td style="width:50%; text-align:center" id="level-0">
+            <h6 style="text-align:center">Therapist 3D Model</h6>
+        </td>
+        <td style="width:50%; text-align:center" id="level-1">
+            <h6 style="text-align:center">YuMI Robot</h6>
+        </td>
+    </tr>
+<tr>
+        <td>
+            <center>
+                <img src="/images/kathy-cropped.png" style="width:30%;">
+            </center>
+        </td>
+        <td>
+            <center>
+                <img src="/images/yumi.png" style="width:30%;">
+            </center>
+        </td>
+</tr>
+</table>
 
 <img src="/images/teaser-image.jpg" style="width:50%;">
 
