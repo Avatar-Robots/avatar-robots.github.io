@@ -12,6 +12,8 @@ menu_settings:
       url: '/'
     - title: 'Poses'
       url: '/poses'
+    - title: 'Sessions'
+      url: '/sessions'
     - title: 'Avatar System'
       url: '/avatar-system'
     - title: 'Team'

@@ -39,6 +39,12 @@ We propose the first general purpose end-to-end robotic system that provides the
 See the avatar sytem with alignment solvers over an emulated therapy session of <a href="{{ item.url | relative_url }}/avatar-system">avatar system</a>.
 
 
+## Session
+We record the emulated therapy sessions to test the avatar system.
+ 
+See the system in action over all the <a href="{{ item.url | relative_url }}/sessions">therapy sessions</a>.
+
+
 ## Results
 
 #### Evaluating solvers on a set of static poses 
