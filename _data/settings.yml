@@ -13,7 +13,7 @@ menu_settings:
     - title: 'Poses'
       url: '/poses'
     - title: 'Sessions'
-      url: '/sessions'
+      url: '/sessions/emulated-therapy-session'
     - title: 'Avatar System'
       url: '/avatar-system'
     - title: 'Team'
