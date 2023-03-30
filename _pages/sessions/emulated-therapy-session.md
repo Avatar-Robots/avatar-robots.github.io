@@ -1,15 +1,13 @@
 ---
 permalink: /sessions/emulated-therapy-session/
 title: Emulated Therapy Session
-subtitle: "In the emulated therapy, 'shoulder flexion with elbow extension therapy', we program the robot to follow a trajectory that guides the user's forearm to rotate around his elbow joint. The metrics evaluated for every solver here."
+subtitle: "In the emulated therapy, 'shoulder flexion with elbow extension therapy', we program the robot to follow a trajectory that guides the user's forearm to rotate around his elbow joint. The metrics evaluated for every solver is presented here."
 ---
 
 <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
 
 
-## Videos
-
-### Third person view
+## Third person view
 
 <div style="margin-left:auto;margin-right:auto;margin-top:20px;max-width:60%">
 <video class="video-js" style="display:block;width:100%;height:fit-content;" controls preload="auto">
@@ -17,7 +15,7 @@ subtitle: "In the emulated therapy, 'shoulder flexion with elbow extension thera
 </video>
 </div>
 
-### First person view
+## First person view
 
 <div style="margin-left:auto;margin-right:auto;margin-top:20px;max-width:60%">
 <video class="video-js" style="display:block;width:100%;height:fit-content;" controls preload="auto">
@@ -25,8 +23,8 @@ subtitle: "In the emulated therapy, 'shoulder flexion with elbow extension thera
 </video>
 </div>
 
-### Reconstructed views for different solvers
-We rendered these views with a special shader to compute overlay ratio, an intuitive metric to measure
+## Reconstructed views for different solvers
+We rendered these views in simulation to compute overlay ratio, an intuitive metric to measure
 the quality of alignment produced by alignment solvers. We define the overlay ratio of a frame as the proportion of the robot covered by the projected avatar
 as seen from the user. With these videos, the overlay ratios can be computed as the green area divided by the red and green area combined.
 
