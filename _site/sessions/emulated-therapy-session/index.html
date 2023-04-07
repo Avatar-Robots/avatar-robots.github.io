@@ -136,21 +136,26 @@
 
 	<script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
 
-<h2 id="third-person-view">Third person view</h2>
+<h2 id="third-and-first-person-view">Third and first person view</h2>
 
-<div style="margin-left:auto;margin-right:auto;margin-top:20px;max-width:60%">
-<video class="video-js" style="display:block;width:100%;height:fit-content;" controls="" preload="auto">
-  <source src="/system-videos/third-person.webm" type="video/webm" />
-</video>
-</div>
-
-<h2 id="first-person-view">First person view</h2>
-
-<div style="margin-left:auto;margin-right:auto;margin-top:20px;max-width:60%">
-<video class="video-js" style="display:block;width:100%;height:fit-content;" controls="" preload="auto">
-  <source src="/system-videos/first-person.webm" type="video/webm" />
-</video>
-</div>
+<table style="table-layout:fixed;width:100%;">
+    <tr>
+      <th style="width:50%">Third person</th>
+      <th style="width:50%">First person</th>
+    </tr>
+    <tr>
+        <td>
+          <video class="video-js" style="display:block;width:100%;height:fit-content;" controls="" preload="auto">
+            <source src="/system-videos/third-person.webm" type="video/webm" />
+          </video>
+        </td>
+        <td>
+          <video class="video-js" style="display:block;width:100%;height:fit-content;" controls="" preload="auto">
+            <source src="/system-videos/first-person.webm" type="video/webm" />
+          </video>
+        </td>
+    </tr>
+</table>
 
 <h2 id="reconstructed-views-for-different-solvers">Reconstructed views for different solvers</h2>
 <p>We rendered these views in simulation to compute overlay ratio, an intuitive metric to measure

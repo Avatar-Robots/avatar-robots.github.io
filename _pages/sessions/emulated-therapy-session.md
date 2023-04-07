@@ -7,21 +7,26 @@ subtitle: "In the emulated therapy, 'shoulder flexion with elbow extension thera
 <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
 
 
-## Third person view
+## Third and first person view
 
-<div style="margin-left:auto;margin-right:auto;margin-top:20px;max-width:60%">
-<video class="video-js" style="display:block;width:100%;height:fit-content;" controls preload="auto">
-  <source src="/system-videos/third-person.webm" type="video/webm">
-</video>
-</div>
-
-## First person view
-
-<div style="margin-left:auto;margin-right:auto;margin-top:20px;max-width:60%">
-<video class="video-js" style="display:block;width:100%;height:fit-content;" controls preload="auto">
-  <source src="/system-videos/first-person.webm" type="video/webm">
-</video>
-</div>
+<table style="table-layout:fixed;width:100%;">
+    <tr>
+      <th style="width:50%">Third person</th>
+      <th style="width:50%">First person</th>
+    </tr>
+    <tr>
+        <td>
+          <video class="video-js" style="display:block;width:100%;height:fit-content;" controls preload="auto">
+            <source src="/system-videos/third-person.webm" type="video/webm">
+          </video>
+        </td>
+        <td>
+          <video class="video-js" style="display:block;width:100%;height:fit-content;" controls preload="auto">
+            <source src="/system-videos/first-person.webm" type="video/webm">
+          </video>
+        </td>
+    </tr>
+</table>
 
 ## Reconstructed views for different solvers
 We rendered these views in simulation to compute overlay ratio, an intuitive metric to measure
